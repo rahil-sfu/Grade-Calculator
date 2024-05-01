@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+
+    <link rel="stylesheet" href="2.css">
+    <script src="3.js"></script>
+</head>
+<body>
+  <div id="page-content" class="two-column">
+
+    <div class="header-divider"></div>
+    <br>
+    <h1>&nbsp Grade Calculator</h1>
+    <br>
+    <div class="box">
+    <h3>&nbsp Activities</h3>
+    <p>&nbsp Give grades to the numeric activities:</p>
+
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Short Name</th>
+                <th>Weight</th>
+                <th>Grade</th>
+                <th>Percent</th>
+                <th>Letter Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Activity 1</td>
+                <td>A1</td>
+                <td><input id="wt1" type="text"></td> 
+                <td><input id="g1a" type="text"> / <br><input id="g1b" type="text" onkeyup="percent()" ></td>
+                <td id="p1"></td>
+                <td id="l1"></td>
+            </tr>
+            <tr>
+                <td>Activity 2</td>
+                <td>A2</td>
+                <td><input id="wt2" type="text"></td>
+                <td><input id="g2a" type="text"> / <br> <input id="g2b" type="text" onkeyup="percent()"></td>
+                <td id="p2"></td>
+                <td id="l2"></td>
+                
+            </tr>
+            <tr>
+                <td>Activity 3</td>
+                <td>A3</td>
+                <td><input id="wt3" type="text"></td>
+                <td><input id="g3a" type="text"> / <br> <input id="g3b" type="text" onkeyup="percent()"></td>
+                <td id="p3"></td>
+                <td id="l3"></td>
+                
+            </tr>
+            <tr>
+                <td>Activity 4</td>
+                <td>A4</td>
+                <td><input id="wt4" type="text"></td>
+                <td><input id="g4a" type="text"> / <br><input id="g4b" type="text" onkeyup="percent()"></td>
+                <td id="p4"></td>
+                <td id="l4"></td>
+    
+            </tr>
+
+        </tbody>
+    </table>
+
+    
+
+    <h3>&nbsp Result :</h3>
+    <h3 id="result"> </h3>
+
+    <div class="buttonR"> 
+        <p>
+            <button id="Weight" onclick="weightedPercent()">WEIGHTED</button>
+            <button id="Mean" onclick="meanPercent()">MEAN</button>
+        </p>
+    </div>
+   </div>
+    <footer></footer>
+</div>
+   
+
+
+</body>
+</html>

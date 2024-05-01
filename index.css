@@ -1,0 +1,77 @@
+h1{
+    font-family: "DINWebBold",sans-serif;
+}
+h3{
+    color: #a6192e;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+body {
+    font: normal 100% Cambria,Georgia,"Times New Roman",Times,serif;
+    line-height: 1.5em;
+    margin: 0;
+    background: #a6192e  top left repeat;
+}
+footer {
+    clear: left;
+    height: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background: #3d3935  -70px 0 no-repeat;
+}
+.header-divider {
+    clear: left;
+    height: 25px;
+    width: 100%;
+    background: #3d3935  -70px 0 no-repeat;
+}
+#page-content {
+    margin: 0px 50px;
+    background-color: #fff;
+}
+.buttonR button{
+    background-color: #A6192E;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: "DINWebBold",sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 0.5em;
+    margin-bottom: 1px;
+    margin-right: 2%;
+    padding: 1%;
+}
+.buttonR p{
+    text-align: right;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 60px ;
+    border-color: gray;
+}
+#wt1, #wt2, #wt3, #wt4, #g1a, #g1b, #g2a,#g2b,#g3a ,#g3b,#g4a,#g4b{
+    width: 60%;
+}
+#p1,#p2,#p3,#p4{
+    width: 20%;
+}
+table thead {
+    border-spacing: 2px;
+    background-color: rgb(235, 205, 205);
+    text-align: left;
+}
+.box{
+    position: relative;
+    left:20px;
+    bottom: 20px;
+    border: 1px solid;
+    background-color: rgb(230, 223, 223);
+    width: 60%;
+    height: 80%;
+    border-color: blanchedalmond;
+}
